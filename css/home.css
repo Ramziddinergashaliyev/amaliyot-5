@@ -32,7 +32,6 @@
   width: 160px;
   line-height: 19px;
   letter-spacing: 0em;
-  text-align: right;
   padding: 10px;
   border-radius: 10px;
   display: flex;
@@ -62,7 +61,7 @@
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 0em;
-  text-align: right;
+  text-align: center;
   padding: 12px 32px;
   border-radius: 10px;
   background: var(--secondaryColor);
@@ -78,12 +77,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 120px 0px 50px;
+  gap: 10px;
 }
 
 .home__bottom__line {
   border: 1px solid #E5E5E5;
   width: 100%;
   height: 1px;
+  align-items: center;
+  display: flex;
 }
 
 .home__bottom__title {

@@ -39,7 +39,7 @@ button {
   font-size: 25px;
   bottom: 20px;
   right: 20px;
-  background: var(--backgroundColor);
+  background: var(--buttonColor);
   border-radius: 50%;
   color: var(--secondaryColor);
   display: none;
