@@ -2,18 +2,22 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  list-style: none;
+  list-style-type: none;
 }
 
-*,*::after,::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
+
 a {
   color: inherit;
 }
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 .container {
@@ -30,18 +34,20 @@ button {
 
 .back-top {
   position: fixed;
-  bottom: 50px;
-  right: 30px;
-  background: var(--buttonColor);
-  font-size: 22px;
-  padding:16px 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  bottom: 20px;
+  right: 20px;
+  background: var(--backgroundColor);
   border-radius: 50%;
-  display: none;
   color: var(--secondaryColor);
-  z-index: 200;
+  display: none;
+  justify-content: center;
+  align-items: center;
 }
 
-.show__back-top{
+.show__back-top {
   display: flex;
 }
 
