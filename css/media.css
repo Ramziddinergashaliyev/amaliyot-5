@@ -1,0 +1,86 @@
+#media {
+  padding: 90px 0px;
+}
+
+.media__preject {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.media__preject__line {
+  border: 2px solid #1D2130;
+  height: 1px;
+  width: 60px;
+}
+
+.media__preject__title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.media__title {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 20px 70px;
+}
+
+.media__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px 0px;
+}
+
+.media__card {
+  background-image: url(../imgs/bacground-img.png);
+  background-repeat: no-repeat;
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.media__card__title {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--secondaryColor);
+}
+
+.media__card__text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--secondaryColor);
+}
+
+.media__card__btn {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.media__card__btn:hover {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+}

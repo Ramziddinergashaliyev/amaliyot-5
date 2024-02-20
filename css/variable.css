@@ -1,0 +1,14 @@
+:root {
+  --primaryColor:black;
+  --secondaryColor:white;
+  --buttonColor:#70C174;
+  --linerColor: #E5E5E5;
+  --darkModeColor:black;
+  --hoverColor: #70C174;
+}
+
+.dark {
+  --primaryColor:white;
+  --secondaryColor: black;
+  --darkModeColor: yellow;
+}

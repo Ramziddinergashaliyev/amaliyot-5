@@ -1,0 +1,183 @@
+@media (max-width:1000px) {
+  .about__left {
+    width: 100%;
+  }
+  
+  .about__left__bottom {
+    padding: 0;
+  }
+  .about__right {
+    width: 100%;
+  }
+
+  .about__left__title {
+    font-size: 30px;
+  }
+
+  .pricing__left,
+  .pricing__right {
+    width: 50%;
+  }
+
+  .pricing__left__bottom {
+    padding: 0;
+  }
+
+  .media__cards {
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+  }
+
+  .media__card {
+    width: 40%;
+  }
+
+  .footer__row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .footer__left {
+    width: 100%;
+  }
+}
+
+
+@media (max-width:850px) {
+  .home__title {
+    font-size: 42px;
+  }
+  .home__left {
+    width: 100%;
+  }
+  
+  .pricing__left__title {
+    font-size: 30px;
+  }
+
+  .pricing__card {
+    flex-direction: column;
+  }
+
+  .pricing__left,
+  .pricing__right{
+    width: 100%;
+  }
+  .media__cards {
+    width: 100%;
+  }
+  .media__title {
+    font-size: 20px;
+  }
+
+  .contact__card {
+    flex-direction: column;
+  }
+
+  .contact__left,
+  .contact__right {
+    width: 100%;
+  }
+
+  .make__title {
+    font-size: 10px;
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width:650px) {
+  .direction__title {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .home__title {
+    font-size: 32px;
+  }
+  .about__left__bottom {
+    padding: 0;
+  }
+
+  .home__left {
+    width: 100%;
+  }
+  
+  .media__card {
+    width: 100%;
+  }
+
+  .home__btns {
+    flex-direction: column;
+  }
+
+  .home__bottom__line {
+    display: none;
+  }
+
+  .home__bottom {
+    flex-direction: column;
+  }
+  
+  .about__top {
+    flex-direction: column;
+  }
+
+  .pricing-icon__top__title {
+    font-size: 16px;
+  }
+  .pricing__icon__bottom__text {
+    font-size: 10px;
+  }
+
+  .make__text {
+    display: none;
+  }
+
+  .make__card {
+    width: 300px;
+  }
+}
+
+@media (max-width:400px) {
+  .home__title {
+    font-size: 24px;
+    line-height: 50px;
+  }
+
+  .home__left {
+    width: 100%;
+  }
+  .media__card__title {
+    font-size: 20px;
+  }
+
+  .header__nav__right__btns__contact {
+    display: none;
+  }
+  
+  .media__top {
+    display: none;
+  }
+
+  .contact__left__title {
+    font-size: 30px;
+  }
+
+  .direction__liner {
+    display: none;
+  }
+
+  .direction__number {
+    font-size: 10px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .footer__right__title {
+    font-size: 16px;
+  }
+}

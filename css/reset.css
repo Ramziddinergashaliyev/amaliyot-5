@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+*,*::after,::before {
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-top {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  background: var(--buttonColor);
+  font-size: 22px;
+  padding:16px 20px;
+  border-radius: 50%;
+  display: none;
+  color: var(--secondaryColor);
+  z-index: 200;
+}
+
+.show__back-top{
+  display: flex;
+}
+
+

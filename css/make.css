@@ -1,0 +1,176 @@
+.make {
+  background-image: url(../imgs/obhavo-img.png);
+  background-repeat: no-repeat;
+  margin: 90px 0px;
+  border-radius: 10px;
+}
+
+
+.make__text {
+  text-align: center;
+  padding: 80px 0px;
+}
+.make__title {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--secondaryColor);
+}
+
+.make__btns {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  gap: 20px;
+}
+
+.make__btn {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  padding: 12px 32px;
+  border-radius: 7px;
+  border: 1px solid var(--buttonColor);
+  background-color: var(--buttonColor);
+}
+
+.make__btn:hover {
+  background-color: var(--secondaryColor);
+  border: 1px solid var(--buttonColor);
+  color: var(--buttonColor);
+}
+.make__btn__donate {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  padding: 12px 32px;
+  border: 1px solid var(--secondaryColor);
+  border-radius: 7px;
+  background-color: var(--secondaryColor);
+}
+
+.make__btn__donate:hover {
+  border: 1px solid var(--buttonColor);
+  background-color: var(--buttonColor);
+}
+
+.make__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 50px 0px;
+}
+
+.make__bottom__title {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.make__bottom__line {
+  border: 1px solid var(--linerColor);
+  height: 1px;
+  width: 80%;
+}
+.make__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.make__card {
+  width: 270px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.make__card:hover {
+  box-shadow: 1px 1px 20px var(--linerColor);
+}
+
+.make__card__img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.make__card__title {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.make__card__text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 10px 0px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: gray;
+}
+
+.make__direction__cards {
+  display: flex;
+  gap: 40px;
+  margin: 50px 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.direction__card {
+  width: 550px;
+  display: flex;
+  background-color: var(--buttonColor);
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+
+.direction__card:hover {
+  background-color: rgb(124, 124, 231);
+}
+
+.direction__title {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.direction__number {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.direction__liner {
+  border: 2px solid gray;
+  height: 1px;
+  width: 70px;
+}

@@ -1,0 +1,99 @@
+#hero {
+  background-image: url(../imgs/home-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 70px;
+}
+
+.home__left {
+  width: 60%;
+}
+
+.home__title {
+  font-family: Roboto;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--secondaryColor);
+  padding: 100px 0px 40px;
+}
+
+.home__btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.home__play {
+  font-size: 16px;
+  font-weight: 500;
+  width: 160px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.home__play:hover {
+  background-color: var(--buttonColor);
+}
+
+.home__play__text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: var(--secondaryColor);
+}
+
+.home__btns__btn {
+  font-family: Roboto;
+  width: 160px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  padding: 12px 32px;
+  border-radius: 10px;
+  background: var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
+}
+
+.home__btns__btn:hover{
+  background-color: var(--buttonColor);
+  border: 1px solid var(--buttonColor);
+}
+.home__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0px 50px;
+  gap: 5px;
+}
+
+.home__bottom__line {
+  border: 1px solid #E5E5E5;
+  width: 70%;
+  height: 1px;
+}
+
+.home__bottom__title {
+  font-family: Roboto;
+  width: 200px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: var(--secondaryColor);
+}

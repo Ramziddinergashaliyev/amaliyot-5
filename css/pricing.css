@@ -1,0 +1,75 @@
+#pricing {
+  background-color: #EFF7F2;
+}
+
+.pricing__card {
+  display: flex;
+  padding: 100px 0px;
+  align-items: center;
+  gap: 40px;
+}
+
+.pricing__left {
+  width: 60%;
+}
+
+.pricing__left__bottom {
+  padding: 10px 70px;
+}
+
+.pricing__left__title {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--primaryColor);
+  padding: 20px 0px;
+}
+
+.pricing__left__text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.pricing-icon__top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.pricing-icon__top__title {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.pricing__icon__bottom__text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 5px 50px;
+}
+
+.pricing__right {
+  width: 40%;
+}
+
+.pricing__right__img {
+  width: 100%;
+}
+
+.pricing__left__icon__text {
+  padding: 10px 0px;
+}
