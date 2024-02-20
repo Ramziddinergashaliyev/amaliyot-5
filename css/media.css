@@ -81,6 +81,6 @@
 }
 
 .media__card__btn:hover {
-  background-color: var(--primaryColor);
+  background-color: var(--buttunColor);
   color: var(--secondaryColor);
 }
