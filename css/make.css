@@ -1,6 +1,7 @@
 .make {
   background-image: url(../imgs/obhavo-img.png);
   background-repeat: no-repeat;
+  background-size: 100%;
   margin: 90px 0px;
   border-radius: 10px;
 }
@@ -9,10 +10,12 @@
 .make__text {
   text-align: center;
   padding: 80px 0px;
+  margin: 0 auto;
 }
+
 .make__title {
   font-family: Roboto;
-  font-size: 48px;
+  font-size: 68px;
   font-weight: 700;
   line-height: 58px;
   letter-spacing: 0px;
@@ -135,7 +138,7 @@
   gap: 40px;
   margin: 50px 0px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 .direction__card {
   width: 550px;
