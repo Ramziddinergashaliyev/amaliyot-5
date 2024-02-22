@@ -50,6 +50,7 @@ input {
   background: transparent;
   outline: none;
   padding: 0px 20px;
+  color: white;
 }
 
 .footer__btn {
